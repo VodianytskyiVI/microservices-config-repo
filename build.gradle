@@ -12,13 +12,9 @@ repositories {
     mavenCentral()
 }
 
-ext {
-    set('springCloudVersion', '3.1.1')
-}
-
 dependencies {
     implementation 'org.springframework.boot:spring-boot-starter'
-    implementation 'org.springframework.cloud:spring-cloud-config-server:${springCloudVersion}'
+    implementation 'org.springframework.cloud:spring-cloud-config-server:3.1.1'
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
 }
 
