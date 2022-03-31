@@ -1,10 +1,10 @@
-package com.example.microservicesconfigrepo;
+package com.example.config.repo;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class MicroservicesConfigRepoApplicationTests {
+class ConfigRepoApplicationTests {
 
     @Test
     void contextLoads() {

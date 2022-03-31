@@ -1,4 +1,4 @@
-package com.example.microservicesconfigrepo;
+package com.example.config.repo;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -6,10 +6,10 @@ import org.springframework.cloud.config.server.EnableConfigServer;
 
 @EnableConfigServer
 @SpringBootApplication
-public class MicroservicesConfigRepoApplication {
+public class ConfigRepoApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(MicroservicesConfigRepoApplication.class, args);
+        SpringApplication.run(ConfigRepoApplication.class, args);
     }
 
 }
